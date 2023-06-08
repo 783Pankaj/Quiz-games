@@ -59,6 +59,8 @@ body{
   margin:6px 4px;    
   width: 100%;
   padding: 10px;
+  margin-right: 250px;
+  position: inherit;
 }
 /* .option-container input{
   visibility: hidden;    
@@ -98,6 +100,7 @@ body{
   transition: 0.2s;
   width:100px;
   position: absolute;
+  margin-left: 250px;
   bottom: 15px;
 }
 #next-button:active{
@@ -108,4 +111,21 @@ body{
   top:30%;
   font-size: 40px;
   text-align: center;  
+}
+#reset-button{
+  padding:10px;
+  border:none;
+  background-color: rgb(48, 162, 35);
+  background-color: #276272;
+  color:white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgb(127, 109, 109);
+  font-size: larger;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 0.2s;
+  width:120px;
+  position: absolute;
+  bottom: 15px;
+  margin-right: 250px;
 }
